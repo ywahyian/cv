@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ywahyian.github.io/CV/sitemap.xml
