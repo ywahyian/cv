@@ -1,6 +1,6 @@
 # CV – Younes Wahyiane
 
-Static one-page CV website, published with GitHub Pages at https://ywahyian.github.io/CV/.
+Static one-page CV website, published with GitHub Pages at https://ywahyian.github.io/cv/.
 
 - `index.html` – content (source: approved CV v3, 2026-11-05)
 - `style.css` – clean business theme (white, charcoal, navy), light/dark mode, print stylesheet ("Save as PDF")
