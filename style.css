@@ -267,3 +267,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid #3b6fb6; outline-offs
 .avatar svg { width: 62%; height: 62%; }
 .hero .avatar .mark-w { stroke: var(--navy); }
 .hero .avatar .mark-y { stroke: #3d6fb8; }
+
+/* Availability badges (hero) */
+.badges { list-style: none; padding: 0; margin: 0 0 1.75rem; display: flex; flex-wrap: wrap; gap: .5rem; }
+.badges li { display: inline-flex; align-items: center; gap: .5rem; padding: .4rem .9rem; border-radius: 999px; font-size: .9rem; color: #dbe4f0; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); }
+.badges abbr { text-decoration: none; }
+.badges .pulse { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 0 rgba(74,222,128,.6); animation: pulse 2s infinite; }
+@keyframes pulse { 70% { box-shadow: 0 0 0 7px rgba(74,222,128,0); } 100% { box-shadow: 0 0 0 0 rgba(74,222,128,0); } }
+@media (prefers-reduced-motion: reduce) { .badges .pulse { animation: none; } }
+@media print { .badges li { color: #111; background: none; border-color: #999; } .badges .pulse { background: #2e7d32; animation: none; } }
